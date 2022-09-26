@@ -1,0 +1,53 @@
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    font-size: 2rem;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    font-size: 2rem;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    font-size: 2rem;
+}
+
+article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    font-size: 2rem;
+
+}
+
+aside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+    font-size: 2rem;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: coral;
+    font-size: 2rem;
+}
+
